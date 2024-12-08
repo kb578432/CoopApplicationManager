@@ -1,0 +1,48 @@
+Database Schema: {
+  object: 'database',
+  id: '146f4ff4-5bcf-80d7-8916-c458b1ed1793',
+  cover: null,
+  icon: null,
+  created_time: '2024-11-22T21:34:00.000Z',
+  created_by: { object: 'user', id: 'c06a6df9-b59c-492d-a1b2-ca6649b77a96' },
+  last_edited_by: { object: 'user', id: 'c06a6df9-b59c-492d-a1b2-ca6649b77a96' },
+  last_edited_time: '2024-11-22T23:39:00.000Z',
+  title: [
+    {
+      type: 'text',
+      text: [Object],
+      annotations: [Object],
+      plain_text: 'Job applications',
+      href: null
+    }
+  ],
+  description: [],
+  is_inline: false,
+  properties: {
+    status: { id: 'TDSS', name: 'status', type: 'rich_text', rich_text: {} },
+    notes: { id: 'bKy%7D', name: 'notes', type: 'rich_text', rich_text: {} },
+    company: { id: 'dDhE', name: 'company', type: 'rich_text', rich_text: {} },
+    pay_per_hour: {
+      id: 'fTp%5D',
+      name: 'pay_per_hour',
+      type: 'number',
+      number: [Object]
+    },
+    type: { id: 'mGrn', name: 'type', type: 'rich_text', rich_text: {} },
+    url: { id: 'sbH%7D', name: 'url', type: 'rich_text', rich_text: {} },
+    deadline: { id: 'ubiZ', name: 'deadline', type: 'date', date: {} },
+    location: {
+      id: '%7B%7Bau',
+      name: 'location',
+      type: 'rich_text',
+      rich_text: {}
+    },
+    title: { id: 'title', name: 'title', type: 'title', title: {} }
+  },
+  parent: { type: 'workspace', workspace: true },
+  url: 'https://www.notion.so/146f4ff45bcf80d78916c458b1ed1793',
+  public_url: null,
+  archived: false,
+  in_trash: false,
+  request_id: '3bed7839-2f82-4fdd-a643-677d1abf416b'
+}
